@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Carnet 3D</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body style="margin: 0; background: white;">
+    <model-viewer src="Vinyl_Art_Notebook_0523200443_texture.glb"
+                  alt="Carnet 3D"
+                  camera-controls
+                  auto-rotate
+                  environment-image="neutral"
+                  style="width: 100vw; height: 100vh; background: transparent;">
+    </model-viewer>
+  </body>
+</html>
